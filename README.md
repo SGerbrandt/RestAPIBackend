@@ -9,7 +9,7 @@ You should be able to run without having to download any of the required librari
 
 This should start the application. then in a separate command window you can begin calling curl commands on it. 
 
-Please be aware that flask will run by default on port 5000 so the data is located at localhost:5000/api/notes
+Please be aware that flask will run by default on port 5000 so the data is located at `localhost:5000/api/notes`
 
 calling:
 ```curl -i -H "Content-Type: plicaiton/json" -X GET http://localhost:5000/api/notes```
