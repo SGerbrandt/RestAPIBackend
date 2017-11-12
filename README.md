@@ -25,7 +25,8 @@ which will install it to your default python install directory. if you would lik
 
 navigate in the command line to where app.js is located then enter the following commands:
 
-```virtualenv flask
+```
+virtualenv flask
 source flask/bin/activate
 pip install flask flask-jsonpify flask-restful
 pip freeze
