@@ -12,7 +12,7 @@ This should start the application. then in a separate command window you can beg
 Please be aware that flask will run by default on port 5000 so the data is located at `localhost:5000/api/notes`
 
 calling:
-```curl -i -H "Content-Type: plicaiton/json" -X GET http://localhost:5000/api/notes```
+```curl -i -H "Content-Type: application/json" -X GET http://localhost:5000/api/notes/```
 should get you one initial entry.
 
 once done simply hit `ctrl+c` on the command window you used to initially run app.py and it will kill the server
