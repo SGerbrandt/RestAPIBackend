@@ -31,5 +31,17 @@ source flask/bin/activate
 pip install flask flask-jsonpify flask-restful
 pip freeze
 ```
+The above assumes you have virtualenv and pip already installed if not you'll need to do the following:
 
-once done you should be able to run the app by calling `flask/bin/python app.py`
+Install pip:
+```
+curl -O http://python-distribute.org/distribute_setup.py
+python distribute_setup.py
+curl -O https://raw.github.com/pypa/pip/master/contrib/get-pip.py
+python get-pip.py
+```
+Install virtualenv:
+```
+pip install virtualenv
+```
+Once done you should be able to run the app by calling `flask/bin/python app.py`
